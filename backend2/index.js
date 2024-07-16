@@ -25,7 +25,7 @@ app.use(cors({
 //   );
 //   next();
 // });
-mongoose.connect('mongodb+srv://vishnukaushik173:kklata123@cluster0.wzxhdvu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://vishnukaushik173:kklata123@cluster0.wzxhdvu.mongodb.net/orderquick?retryWrites=true&w=majority&appName=Cluster0');
 app.use('/api',authRoutes)
 app.use('/api',categoryRoutes)
 app.use('/api',productRoutes)
