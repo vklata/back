@@ -9,7 +9,7 @@ import paymentRoutes from './Routes/paymentRoutes.js'
 // import cors from 'cors'
 import mongoose from 'mongoose'
 const app = express();
-// app.use(cors());
+app.use(cors());
 app.use(express.json());
 app.use(cors({
   origin: 'https://shoping-kzk7-deoq12urv-vishnulatas-projects.vercel.app',
