@@ -7,7 +7,7 @@ import productRoutes from './Routes/productRoutes.js'
 import paymentRoutes from './Routes/paymentRoutes.js'
 connectDB();
 import cors from 'cors'
-// import mongoose, { mongo } from 'mongoose'
+import mongoose from 'mongoose'
 const app = express();
 // app.use(cors());
 app.use(express.json());
