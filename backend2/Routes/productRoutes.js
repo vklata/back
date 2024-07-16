@@ -15,7 +15,7 @@ import {
   searchProductController,
   updateProductController,
 } from "../controllers/productController.js";
-import { isAdmin,requireSignIn } from "../middlewares/authmiddleware.js";
+import { isAdmin,requireSignIn } from "../middlewares/authMiddleware.js";
 import formidable from "express-formidable";
 
 const router = express.Router();
