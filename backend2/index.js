@@ -18,7 +18,7 @@ app.use(express.json());
 //   credentials:true
 // }));
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://shoping-kzk7-deoq12urv-vishnulatas-projects.vercel.app/");
+  res.setHeader("Access-Control-Allow-Origin", "https://shoping-kzk7-deoq12urv-vishnulatas-projects.vercel.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
