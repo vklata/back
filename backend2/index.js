@@ -13,11 +13,11 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   // origin: 'http://localhost:5173'
-  origin:["https://shoping-ejxc.vercel.app"],
+  origin:["https://shoping-kzk7.vercel.app"],
   methods:["POST","GET"],
   credentials:true
 }));
-mongoose.connect('mongodb+srv://vishnukaushik173:kklata123@cluster0.wzxhdvu.mongodb.net/orderquick?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://vishnukaushik173:kklata123@cluster0.wzxhdvu.mongodb.net/orderquick?retryWrites=true&w=majority&appName=Cluster0');
 app.use('/api',authRoutes)
 app.use('/api',categoryRoutes)
 app.use('/api',productRoutes)
