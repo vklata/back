@@ -5,7 +5,7 @@ import {
   userOrder,
   allOrders,
 } from "../controllers/paymentController.js";
-import { isAdmin,requireSignIn } from "../middlewares/authmiddleware.js";
+import { isAdmin,requireSignIn } from "../middlewares/authMiddleware.js";
 
 const router = express.Router();
 
