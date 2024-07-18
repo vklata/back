@@ -1,11 +1,11 @@
 
 import express from 'express'
-// import connectDB from './config/db.js'
+import connectDB from './config/db.js'
 import authRoutes from './Routes/authRoute.js'
 import categoryRoutes from './Routes/categoryRoute.js'
 import productRoutes from './Routes/productRoutes.js'
 import paymentRoutes from './Routes/paymentRoutes.js'
-// connectDB();
+connectDB();
 import cors from 'cors'
 import mongoose from 'mongoose'
 const app = express();
